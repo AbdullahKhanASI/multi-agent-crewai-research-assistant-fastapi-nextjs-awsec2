@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & artifacts
+logs/
+outputs/
+
+# Python / uv
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+backend/.venv/
+
+# Local env files (keep examples)
+backend/.env
+frontend/.env.local
+*.env
+!.env.example
+!backend/.env.example
+!frontend/.env.local.example
+
+# Backend storage
+backend/storage/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/.turbo/
+
+# Build outputs
+dist/
+build/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+.cache/
+.pnpm-store/
