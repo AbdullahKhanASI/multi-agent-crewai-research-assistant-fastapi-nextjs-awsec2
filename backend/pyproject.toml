@@ -29,9 +29,3 @@ backend = "backend.app.main:cli"
 [build-system]
 requires = ["uv_build>=0.8.5,<0.9.0"]
 build-backend = "uv_build"
-
-[tool.uv.scripts]
-serve = "uvicorn backend.app.main:app --reload --port 8000"
-dev = "uvicorn backend.app.main:app --reload --port 8000"
-lint = "python -m pip show fastapi > /dev/null || true"
-test = "pytest -q"
